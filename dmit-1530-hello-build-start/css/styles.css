@@ -1,0 +1,108 @@
+/* 
+
+    Colour Palette
+
+    Darkest – #07182E
+    Columns – #132945
+    Accent  – #29D8BE
+    Text    – #CBD6F5
+    Grey    – #6E7997
+
+    Fonts
+
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Oxygen Mono', monospace;
+
+    Layout Grid
+
+    Row Height is 16px.
+    Column Width is 296px.
+    Vertical Gutters are 18px.
+
+*/
+
+body {
+    font-size: 100%;
+    background-color: #07182E;
+    
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+}
+header {
+   padding: 68px;
+   
+}
+header p {
+    font-size: 24px;
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 46px;
+}
+
+header .hire a { 
+    color: #29D8BE;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 24px;
+    border: 3px solid;
+    padding:19px 98px 18px 97px;
+    margin-left: 251px;
+}
+.hire a:hover {
+    background-color: #29D8BE ;
+    color: #07182E;
+}
+h1 {
+    font-family: "Oxygen Mono", monospace;
+    font-weight: 400;
+    font-size: 64px;
+    color: grey;
+    text-align: center;
+}
+
+p{ 
+    font-family: 'Oxygen', sans-serif;
+    color: #CBD6F5;
+    
+}
+h2 {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 36px;
+    color: #29D8BE ;
+    font-weight: 400;
+}
+
+main {
+    margin-left: 18px;
+    display: flex;
+    gap: 18px;
+    margin-top: 68px;
+    
+}
+
+section {
+    width: 296px;
+    height: 526px;
+    background-color: #132945;
+    
+}
+section h2 {
+    text-align: center;
+    margin-top:52.39px ;
+}
+section p {
+    text-align: center;
+    line-height: 34px;
+    font-size: 16px;
+   
+    
+}
+
+footer {
+    text-align: center;
+    margin-top: 52px;
+    margin-bottom: 104px;
+}
